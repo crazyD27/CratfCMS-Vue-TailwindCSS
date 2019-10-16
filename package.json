@@ -1,0 +1,30 @@
+{
+  "name": "Sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.mix.js",
+  "dependencies": {
+    "tailwindcss": "^1.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "axios": "^0.19",
+    "vue": "^2.5.17"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
