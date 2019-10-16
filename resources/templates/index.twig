@@ -6,17 +6,26 @@
         <title>Welcome to Craft CMS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
         <meta name="referrer" content="origin-when-cross-origin" />
-        <link rel="stylesheet" href="/css/app.css">    
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">    
     </head>
-    <body class="ltr">
+
+    <body class="ltr bg-gray-100">
         <div id="app">
-            <div>
-                <div class="content">
-                    <h1>Welcome</h1>
+            <header>
+                
+            </header>
+
+            <main>
+                <div class="container mx-auto">
                     <hello-world></hello-world>
                 </div>
-            </div>
+            </main>
+
+            <footer>
+                
+            </footer>
         </div>
-        <script type="text/javascript" src="/js/app.js"></script>
+
+        <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
