@@ -9,6 +9,9 @@
 /public/hot
 /public/storage
 /storage
+/cpresources
+/tests/_craft
+/tests/_output
 /vendor
 .env
 .env.backup
@@ -17,3 +20,6 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+*license.key
+/tests/_craft/storage/logs/*
+/tests/storage/

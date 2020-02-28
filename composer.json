@@ -1,6 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "^3.0.0",
+    "craftcms/cms": "^3.4.8",
     "craftcms/element-api": "^2.6",
     "misterbk/mix": "^1.5",
     "vlucas/phpdotenv": "^3.4.0"
