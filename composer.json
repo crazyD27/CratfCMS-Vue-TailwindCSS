@@ -4,7 +4,7 @@
     "craftcms/element-api": "^2.6",
     "spacecatninja/imager-x": "^3.2",
     "misterbk/mix": "^1.5",
-    "vlucas/phpdotenv": "^5.2"
+    "vlucas/phpdotenv": "^3.4"
   },
   "autoload": {
     "psr-4": {
