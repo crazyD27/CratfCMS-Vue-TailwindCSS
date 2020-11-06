@@ -1,10 +1,10 @@
 {
   "require": {
-    "craftcms/cms": "^3.4.8",
+    "craftcms/cms": "^3.5",
     "craftcms/element-api": "^2.6",
-    "spacecatninja/imager-x": "^3.0",
+    "spacecatninja/imager-x": "^3.2",
     "misterbk/mix": "^1.5",
-    "vlucas/phpdotenv": "^3.4.0"
+    "vlucas/phpdotenv": "^5.2"
   },
   "autoload": {
     "psr-4": {
@@ -15,7 +15,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "7.0"
+      "php": "7.4"
     }
   },
   "scripts": {
@@ -24,6 +24,6 @@
     ]
   },
   "require-dev": {
-    "laravel/homestead": "^7.20"
+    "laravel/homestead": "^10.15"
   }
 }
